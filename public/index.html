@@ -86,12 +86,15 @@
 						<div class="cta-inner section-inner">
 							<div class="cta-header text-center">
 								<h2 class="section-title mt-0">Welcome to Your New Favorite Art Portal.</h2>
-								<p class="section-paragraph whitext"> Blog owners and lit mags will have a full-featured submission platform to run their business with. Artists and writers will have a stylish place to call home with low fees, an easy submission process, and instant notifications when their review is ready.</p>
-								<p class="section-paragraph whitext"> We host nodes all over the world on multiple clouds (Azure, Google Cloud, and AWS) so your pages load quickly.</p>
+								<p class="section-paragraph whitext"> Blog owners and lit mags will have a full-featured submission platform to run their business with. Artists and writers will have a stylish place to call home with no fees, high payouts, an easy submission process, and instant notifications when their review is ready.</p>
+								<p class="section-paragraph whitext"> We are running on AWS Lambda so your pages load quickly.</p>
 								<p class="section-paragraph whitext">Fast payments via <a href="https://dropp.cc/">Dropp</a>.</p>
-								<p class="section-paragraph whitext">Database support from MongoDB Atlas.</p>
+								<p class="section-paragraph whitext">Database support from Postgres.</p>
 								<div class="cta-cta">
-									<a class="button button-primary button-wide-mobile" href="https://airtable.com/shroN9RwAqK7RHi10" target="_blank">Get early access</a>
+									<a class="button button-primary button-wide-mobile" href="https://getseen.app" target="_blank">Get early access</a>
+								</div>
+								<div class="cta-cta">
+									<a class="button button-primary button-wide-mobile" href="https://www.chillfiltr.com/why-i-created-getseen-a-short-tour-of-the-chillfiltr-workflow" target="_blank">Read more about why GETSEEN was built</a>
 								</div>
 							</div>
 						</div>
@@ -143,5 +146,24 @@
 				color: gray;
 			}
 	</style>
+	<script type="module">
+	  // Import the functions you need from the SDKs you need
+	  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-app.js";
+	  // TODO: Add SDKs for Firebase products that you want to use
+	  // https://firebase.google.com/docs/web/setup#available-libraries
+
+	  // Your web app's Firebase configuration
+	  const firebaseConfig = {
+	    apiKey: "AIzaSyCSpgLmZrSJeMT4ycVJEv6l4_K25H8ObZs",
+	    authDomain: "getseen-info.firebaseapp.com",
+	    projectId: "getseen-info",
+	    storageBucket: "getseen-info.appspot.com",
+	    messagingSenderId: "60559352425",
+	    appId: "1:60559352425:web:ab5ec026eb6c2fbcc638f8"
+	  };
+
+	  // Initialize Firebase
+	  const app = initializeApp(firebaseConfig);
+	</script>
 </body>
 </html>
